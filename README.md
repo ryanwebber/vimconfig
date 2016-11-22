@@ -19,21 +19,20 @@ other environments.
 
 ## Installation
 
-1. Clone the repo into `~/.vim` with: 
+1. Clone the repo into `~/.vim` with:
+  ```
+  $ git clone https://github.com/ryanwebber/vimconfig ~/.vimrc
+  ```
 
-```
-$ git clone https://github.com/ryanwebber/vimconfig ~/.vimrc
-```
 2. Initialize the Vundle submodule with:
-```
-$ git submodule init
-$ git submodule update
-```
+  ```
+  $ git submodule init
+  $ git submodule update
+  ```
 
 3. Remove the current vimrc, and create a sym link to `~/.vim/.vimrc` with:
-```
-$ ln -s ~/.vim/.vimrc ~/.vimrc
-```
+  ```
+  $ ln -s ~/.vim/.vimrc ~/.vimrc
+  ```
 
 4. Open vim and type `:PluginInstall` to install the base plugins 
-
