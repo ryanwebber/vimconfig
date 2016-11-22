@@ -1,0 +1,13 @@
+# Ignore local dotfiles
+.netrwhist
+
+# Ignore the bundle dir,
+# it will be created by the submodule
+# and plugins installed by vundle
+bundle/*
+!bundle/Vundle.vim
+
+# Ignore teh undo contents but keep the folder
+undo/*
+!undo/.gitkeep
+
