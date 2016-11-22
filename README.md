@@ -21,7 +21,7 @@ other environments.
 
 1. Clone the repo into `~/.vim` with:
   ```
-  $ git clone https://github.com/ryanwebber/vimconfig ~/.vimrc
+  $ git clone https://github.com/ryanwebber/vimconfig ~/.vim
   ```
 
 2. Initialize the Vundle submodule with:
