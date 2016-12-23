@@ -16,4 +16,5 @@ source ~/.vim/plugins.vim
 source ~/.vim/format.vim
 source ~/.vim/keys.vim
 source ~/.vim/syntax.vim
+source ~/.vim/config.vim
 

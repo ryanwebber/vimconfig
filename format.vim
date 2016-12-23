@@ -23,17 +23,10 @@ set showmatch
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
 
-" load previous place in file 
-if has("autocmd")
-	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-endif
-
-" set persistent undo
-set undofile
-set undodir=~/.vim/undo
-
 " set the indent guide and show problem whitespace
 set list lcs=tab:\›\ ,trail:•,extends:#,nbsp:. 
 
-" set the color scheme from https://github.com/flazz/vim-colorschemes
-colorscheme adam
+" Attempt to set a color scheme
+colorscheme iceberg
+set cursorline
+hi CursorLine term=bold cterm=none
